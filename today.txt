@@ -1,1 +1,35 @@
-Today is Children's Day, happy!!!
+git init
+git status
+git add -A
+git status
+git commit -m "提交此次更改的有关信息"
+git status
+git log
+//若对文件进行修改
+git status
+git diff
+git checkout -- . //仅退回workspace中的修改
+git status
+//再次修改文件
+git -A
+git commit -m "提交此次更改的有关信息"
+git log
+git reset --hard 版本号前7位
+git log
+git reflog
+git reser --hard 版本号前7位
+git log
+git reflog
+//清楚未追踪的文件
+git clean -xf
+//与github的关联
+//git config --global user.name "你的用户名"
+//git config --global user.email "你的邮箱"
+//git push -u origin master//创建repository时加入了README.md或者LICENSE
+git remote add origin 复制的个人repository地址
+git push -u origin master
+//以后修改的同步
+git push
+
+
+
